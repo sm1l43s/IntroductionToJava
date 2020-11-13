@@ -10,10 +10,10 @@ public class Task5 {
         System.out.println("Input please time in seconds: ");
         int seconds = in.nextInt();
 
-        System.out.println("Time: " + calculateTIme(seconds));
+        System.out.println("Time: " + calculateTime(seconds));
     }
 
-    private static String calculateTIme(int seconds) {
+    private static String calculateTime(int seconds) {
         int hours = seconds / 3600;
         int minutes = (seconds - hours * 3600) / 60;
         int second =  seconds - hours * 3600 - minutes * 60;
